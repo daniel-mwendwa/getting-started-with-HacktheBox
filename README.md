@@ -36,8 +36,8 @@ This repository is a practical guide to using tools like Nmap, Metasploit, and G
 ## **Tools and Commands**
 - **Nmap:** For port and service scanning.  
   ```bash
-  nmap -sV -sC <target_ip>
-gobuster dir -u <target_ip> -w /path/to/wordlist
+  nmap -sV -sC <target_ip>.
+gobuster dir -u <target_ip> -w /path/to/wordlist.
 msfconsole
 search <exploit>
 use <exploit_path>
